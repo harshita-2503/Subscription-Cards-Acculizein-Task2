@@ -11,7 +11,7 @@ let subscribe=plan.querySelector(".subscribe");
 
    
         subscribe.addEventListener("click",()=>{
-            var newWindow = window.open('http://192.168.1.75:8888/Task%202/cost.html', '_blank');
+            var newWindow = window.open('cost.html', '_blank');
             // window.open('http://192.168.1.75:8888/Task%202/cost.html', '_blank');
 
             let h1=plan.querySelector("h1");
